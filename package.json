@@ -12,7 +12,7 @@
     "@google-analytics/data": "^4.0.0"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=20.0.0"
   },
   "keywords": ["google-analytics", "api", "widget", "vercel", "serverless"],
   "author": "Mirko",
