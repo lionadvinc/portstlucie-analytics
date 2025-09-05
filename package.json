@@ -5,7 +5,7 @@
   "main": "api/analytics.js",
   "scripts": {
     "dev": "vercel dev",
-    "build": "echo 'No build step required for serverless functions'",
+    "build": "echo 'Build complete - serverless functions ready'",
     "start": "echo 'Use vercel dev for local development'"
   },
   "dependencies": {
