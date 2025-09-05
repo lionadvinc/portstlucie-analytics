@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/analytics.js": {
+      "runtime": "@vercel/node@2.15.10"
+    }
+  }
+}
