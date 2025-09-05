@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "analytics-api.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/analytics",
+      "dest": "/analytics-api.js"
+    },
+    {
+      "src": "/health",
+      "dest": "/analytics-api.js"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
