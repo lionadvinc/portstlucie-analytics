@@ -1,21 +1,20 @@
 {
-  "name": "portstlucie-analytics-api",
+  "name": "portstlucie-analytics",
   "version": "1.0.0",
-  "description": "Simple Google Analytics API for desktop widget",
-  "main": "analytics-api.js",
+  "description": "Google Analytics API for desktop widget - Vercel deployment",
+  "main": "api/analytics.js",
   "scripts": {
-    "start": "node analytics-api.js",
-    "dev": "nodemon analytics-api.js"
+    "dev": "vercel dev",
+    "build": "echo 'No build step required for serverless functions'",
+    "start": "echo 'Use vercel dev for local development'"
   },
   "dependencies": {
-    "@google-analytics/data": "^4.0.0",
-    "express": "^4.18.2",
-    "cors": "^2.8.5"
+    "@google-analytics/data": "^4.0.0"
   },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
+  "engines": {
+    "node": ">=18.0.0"
   },
-  "keywords": ["google-analytics", "api", "widget"],
-  "author": "Your Name",
+  "keywords": ["google-analytics", "api", "widget", "vercel", "serverless"],
+  "author": "Mirko",
   "license": "MIT"
 }
